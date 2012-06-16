@@ -39,7 +39,7 @@ public class AimpActivity extends Activity {
 	
 	 WakeLock wakeLock;
 	    private static final String[] EXTENSIONS = { ".mp3", ".mid", ".wav", ".ogg", ".mp4" }; //Playable Extensions
-	    List<String> trackNames; //Playable Track Titles
+	    List<String> trackNames; 
 	    List<String> trackArtworks; //Track artwork names
 	    AssetManager assets; //Assets (Compiled with APK)
 	    File path; //directory where music is loaded from on SD Card
