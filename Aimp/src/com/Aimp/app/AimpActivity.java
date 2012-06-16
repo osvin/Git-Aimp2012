@@ -39,7 +39,7 @@ public class AimpActivity extends Activity {
 	
 	 WakeLock wakeLock;
 	    private static final String[] EXTENSIONS = { ".mp3", ".mid", ".wav", ".ogg", ".mp4" }; //Playable Extensions
-	    List<String> trackNames; 
+	    List<String> trackNames; //Playable Track Titles
 	    List<String> trackArtworks; //Track artwork names
 	    AssetManager assets; //Assets (Compiled with APK)
 	    File path; //directory where music is loaded from on SD Card
@@ -51,7 +51,7 @@ public class AimpActivity extends Activity {
 	    boolean shuffle; //is shuffle mode on?
 	    boolean isTuning; //is user currently jammin out, if so automatically start playing the next track
 	    int currentTrack; //index of current track selected
-	    int type; //0 for loading from assets, 1 for loading from SD 
+	    int type; //0 for loading from assets, 1 for loading from SD
 	    
 	    
 	    private static final String MEDIA_PATH = new String("/mnt/sdcard/");
