@@ -51,7 +51,7 @@ public class AimpActivity extends Activity {
 	    boolean shuffle; //is shuffle mode on?
 	    boolean isTuning; //is user currently jammin out, if so automatically start playing the next track
 	    int currentTrack; //index of current track selected
-	    int type; //0 for loading from assets, 1 for loading from SD
+	    int type; //0 for loading from assets, 1 for loading from SD 
 	    
 	    
 	    private static final String MEDIA_PATH = new String("/mnt/sdcard/");
